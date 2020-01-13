@@ -1,6 +1,6 @@
 Game can be played on: https://fileames-trivia.netlify.com/
 
-### Bonus Feautes implemented
+### Bonus Features implemented
 
 - Difficulty Selection
 - Usage of Lottie Animation
