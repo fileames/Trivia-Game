@@ -1,3 +1,5 @@
+# Trivia Game with React
+
 Game can be played on: https://fileames-trivia.netlify.com/
 
 ### Bonus Features implemented
