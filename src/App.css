@@ -1,18 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" );
 .App {
   text-align: center;
 }
-
 .App-logo {
-  height: 40vmin;
+  height: 23vmin;
   pointer-events: none;
+  margin-top: 5%;
+  margin-bottom: 1%;
+
+}
+h2{
+  color:grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
 }
 
+label {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+input[type=radio]:checked + label{
+  color: white;
+  background: black;
+}
+
+label + input[type=radio] + label {
+  border-left: solid 3px black;
+}
+
+.radio-group {
+  border: solid 3px black;
+  display: inline-block;
+  margin: 1vmin;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.getStarted{
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  background-color: black;
+  color:grey;
+  border: none;
+  font-size: 5vmin;
+  padding:2vmin;
+  margin:2vmin;
+  margin-top: 6vmin;
+  border-radius: 8px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +80,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+.question{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5vmin;
+  text-align: center;
+  padding:5vmin;
+  border-radius: 18px;
+  width:auto;
+  height:auto;
+}
+.point{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vmin;
+  text-align: center;
+  border-radius: 18px;
+  width:auto;
+  height:auto;
+}
+.option{
+  min-width: 50vmin;
+  width:inherit;
+  font-size: 4vmin;
+  color:white;
+  text-align: center;
+  background-color: black;
+  padding:3vmin;
+  border-radius: 18px;
+  border:0;
+  position: static;
+  margin:1vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.Question-header{
+  margin-top:0;
+  height:12vh;
+  width:100vw;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.head{
+  display: inline-block;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  color:white;
 }
