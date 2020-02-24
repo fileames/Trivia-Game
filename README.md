@@ -1,8 +1,8 @@
 # Trivia Game with React
 
-Game can be played on: https://fileames-trivia.netlify.com/
+Game can be played on: https://esb-trivia.netlify.com/
 
-### Bonus Features implemented
+### Features implemented
 
 - Difficulty Selection
 - Usage of Lottie Animation
