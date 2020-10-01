@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../css/App.css';
 
 class Welcome extends React.Component {
   constructor(props){

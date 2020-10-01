@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Welcome from './Welcome.js'
-import Question from './Question.js'
+import './css/App.css';
+import Welcome from './components/Welcome.js'
+import Question from './components/Question.js'
 
 class App extends React.Component {
   constructor(){

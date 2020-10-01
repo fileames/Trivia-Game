@@ -1,6 +1,6 @@
 # Trivia Game with React
 
-Game can be played on: https://esb-trivia.netlify.com/
+Game can be played on: https://esb-trivia.netlify.app/
 
 ### Features implemented
 
